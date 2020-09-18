@@ -13,6 +13,6 @@
 /dev/block/platform/sdhci-tegra.3/by-name/LNX           /boot               emmc      defaults                                                      defaults
 /dev/block/platform/sdhci-tegra.3/by-name/SOS           /recovery           emmc      defaults                                                      defaults
 /dev/block/platform/sdhci-tegra.3/by-name/USP           /staging            emmc      defaults                                                      defaults
-/dev/block/zram0					none                swap      defaults zramsize=209715200
+/dev/block/zram0					none                swap      defaults zramsize=268435456
 
 /devices/platform/tegra-ehci                                auto        vfat        defaults        voldmanaged=usbdisk:auto
